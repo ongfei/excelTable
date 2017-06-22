@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3EFB4721EFA63EF00A2FB33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EFB4711EFA63EF00A2FB33 /* main.m */; };
+		A3EFB4751EFA63EF00A2FB33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EFB4741EFA63EF00A2FB33 /* AppDelegate.m */; };
+		A3EFB47B1EFA63EF00A2FB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EFB4791EFA63EF00A2FB33 /* Main.storyboard */; };
+		A3EFB47D1EFA63EF00A2FB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EFB47C1EFA63EF00A2FB33 /* Assets.xcassets */; };
+		A3EFB4801EFA63EF00A2FB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EFB47E1EFA63EF00A2FB33 /* LaunchScreen.storyboard */; };
+		A3EFB48B1EFA63EF00A2FB33 /* ExcelTabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EFB48A1EFA63EF00A2FB33 /* ExcelTabelTests.m */; };
+		A3EFB4961EFA63EF00A2FB33 /* ExcelTabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EFB4951EFA63EF00A2FB33 /* ExcelTabelUITests.m */; };
+		A3EFB4AE1EFA644C00A2FB33 /* ClassifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EFB4A51EFA644C00A2FB33 /* ClassifyView.m */; };
+		A3EFB4AF1EFA644C00A2FB33 /* ExcelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EFB4A71EFA644C00A2FB33 /* ExcelCell.m */; };
+		A3EFB4B01EFA644C00A2FB33 /* ExcelLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EFB4A91EFA644C00A2FB33 /* ExcelLeftView.m */; };
+		A3EFB4B11EFA644C00A2FB33 /* ExcelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EFB4AB1EFA644C00A2FB33 /* ExcelViewController.m */; };
+		A3EFB4B21EFA644C00A2FB33 /* SubtypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EFB4AD1EFA644C00A2FB33 /* SubtypeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3EFB4871EFA63EF00A2FB33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3EFB4651EFA63EF00A2FB33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3EFB46C1EFA63EF00A2FB33;
+			remoteInfo = ExcelTabel;
+		};
+		A3EFB4921EFA63EF00A2FB33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3EFB4651EFA63EF00A2FB33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3EFB46C1EFA63EF00A2FB33;
+			remoteInfo = ExcelTabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3EFB46D1EFA63EF00A2FB33 /* ExcelTabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcelTabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EFB4711EFA63EF00A2FB33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3EFB4731EFA63EF00A2FB33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3EFB4741EFA63EF00A2FB33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3EFB47A1EFA63EF00A2FB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3EFB47C1EFA63EF00A2FB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3EFB47F1EFA63EF00A2FB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3EFB4811EFA63EF00A2FB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EFB4861EFA63EF00A2FB33 /* ExcelTabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcelTabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EFB48A1EFA63EF00A2FB33 /* ExcelTabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelTabelTests.m; sourceTree = "<group>"; };
+		A3EFB48C1EFA63EF00A2FB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EFB4911EFA63EF00A2FB33 /* ExcelTabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcelTabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EFB4951EFA63EF00A2FB33 /* ExcelTabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelTabelUITests.m; sourceTree = "<group>"; };
+		A3EFB4971EFA63EF00A2FB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EFB4A41EFA644C00A2FB33 /* ClassifyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyView.h; sourceTree = "<group>"; };
+		A3EFB4A51EFA644C00A2FB33 /* ClassifyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyView.m; sourceTree = "<group>"; };
+		A3EFB4A61EFA644C00A2FB33 /* ExcelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcelCell.h; sourceTree = "<group>"; };
+		A3EFB4A71EFA644C00A2FB33 /* ExcelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcelCell.m; sourceTree = "<group>"; };
+		A3EFB4A81EFA644C00A2FB33 /* ExcelLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcelLeftView.h; sourceTree = "<group>"; };
+		A3EFB4A91EFA644C00A2FB33 /* ExcelLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcelLeftView.m; sourceTree = "<group>"; };
+		A3EFB4AA1EFA644C00A2FB33 /* ExcelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExcelViewController.h; path = ExcelTabel/ExcelViewController.h; sourceTree = "<group>"; };
+		A3EFB4AB1EFA644C00A2FB33 /* ExcelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExcelViewController.m; path = ExcelTabel/ExcelViewController.m; sourceTree = "<group>"; };
+		A3EFB4AC1EFA644C00A2FB33 /* SubtypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtypeView.h; sourceTree = "<group>"; };
+		A3EFB4AD1EFA644C00A2FB33 /* SubtypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtypeView.m; sourceTree = "<group>"; };
+		A3EFB4B51EFA682C00A2FB33 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3EFB46A1EFA63EF00A2FB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EFB4831EFA63EF00A2FB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EFB48E1EFA63EF00A2FB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3EFB4641EFA63EF00A2FB33 = {
+			isa = PBXGroup;
+			children = (
+				A3EFB46F1EFA63EF00A2FB33 /* ExcelTabel */,
+				A3EFB4891EFA63EF00A2FB33 /* ExcelTabelTests */,
+				A3EFB4941EFA63EF00A2FB33 /* ExcelTabelUITests */,
+				A3EFB46E1EFA63EF00A2FB33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3EFB46E1EFA63EF00A2FB33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3EFB46D1EFA63EF00A2FB33 /* ExcelTabel.app */,
+				A3EFB4861EFA63EF00A2FB33 /* ExcelTabelTests.xctest */,
+				A3EFB4911EFA63EF00A2FB33 /* ExcelTabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3EFB46F1EFA63EF00A2FB33 /* ExcelTabel */ = {
+			isa = PBXGroup;
+			children = (
+				A3EFB4A31EFA644500A2FB33 /* ExcelTabel */,
+				A3EFB4731EFA63EF00A2FB33 /* AppDelegate.h */,
+				A3EFB4741EFA63EF00A2FB33 /* AppDelegate.m */,
+				A3EFB4AA1EFA644C00A2FB33 /* ExcelViewController.h */,
+				A3EFB4AB1EFA644C00A2FB33 /* ExcelViewController.m */,
+				A3EFB4791EFA63EF00A2FB33 /* Main.storyboard */,
+				A3EFB47C1EFA63EF00A2FB33 /* Assets.xcassets */,
+				A3EFB47E1EFA63EF00A2FB33 /* LaunchScreen.storyboard */,
+				A3EFB4811EFA63EF00A2FB33 /* Info.plist */,
+				A3EFB4701EFA63EF00A2FB33 /* Supporting Files */,
+			);
+			path = ExcelTabel;
+			sourceTree = "<group>";
+		};
+		A3EFB4701EFA63EF00A2FB33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3EFB4711EFA63EF00A2FB33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3EFB4891EFA63EF00A2FB33 /* ExcelTabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3EFB48A1EFA63EF00A2FB33 /* ExcelTabelTests.m */,
+				A3EFB48C1EFA63EF00A2FB33 /* Info.plist */,
+			);
+			path = ExcelTabelTests;
+			sourceTree = "<group>";
+		};
+		A3EFB4941EFA63EF00A2FB33 /* ExcelTabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3EFB4951EFA63EF00A2FB33 /* ExcelTabelUITests.m */,
+				A3EFB4971EFA63EF00A2FB33 /* Info.plist */,
+			);
+			path = ExcelTabelUITests;
+			sourceTree = "<group>";
+		};
+		A3EFB4A31EFA644500A2FB33 /* ExcelTabel */ = {
+			isa = PBXGroup;
+			children = (
+				A3EFB4A41EFA644C00A2FB33 /* ClassifyView.h */,
+				A3EFB4A51EFA644C00A2FB33 /* ClassifyView.m */,
+				A3EFB4A61EFA644C00A2FB33 /* ExcelCell.h */,
+				A3EFB4A71EFA644C00A2FB33 /* ExcelCell.m */,
+				A3EFB4A81EFA644C00A2FB33 /* ExcelLeftView.h */,
+				A3EFB4A91EFA644C00A2FB33 /* ExcelLeftView.m */,
+				A3EFB4AC1EFA644C00A2FB33 /* SubtypeView.h */,
+				A3EFB4AD1EFA644C00A2FB33 /* SubtypeView.m */,
+				A3EFB4B51EFA682C00A2FB33 /* Constant.h */,
+			);
+			path = ExcelTabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3EFB46C1EFA63EF00A2FB33 /* ExcelTabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EFB49A1EFA63EF00A2FB33 /* Build configuration list for PBXNativeTarget "ExcelTabel" */;
+			buildPhases = (
+				A3EFB4691EFA63EF00A2FB33 /* Sources */,
+				A3EFB46A1EFA63EF00A2FB33 /* Frameworks */,
+				A3EFB46B1EFA63EF00A2FB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExcelTabel;
+			productName = ExcelTabel;
+			productReference = A3EFB46D1EFA63EF00A2FB33 /* ExcelTabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3EFB4851EFA63EF00A2FB33 /* ExcelTabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EFB49D1EFA63EF00A2FB33 /* Build configuration list for PBXNativeTarget "ExcelTabelTests" */;
+			buildPhases = (
+				A3EFB4821EFA63EF00A2FB33 /* Sources */,
+				A3EFB4831EFA63EF00A2FB33 /* Frameworks */,
+				A3EFB4841EFA63EF00A2FB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3EFB4881EFA63EF00A2FB33 /* PBXTargetDependency */,
+			);
+			name = ExcelTabelTests;
+			productName = ExcelTabelTests;
+			productReference = A3EFB4861EFA63EF00A2FB33 /* ExcelTabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3EFB4901EFA63EF00A2FB33 /* ExcelTabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EFB4A01EFA63EF00A2FB33 /* Build configuration list for PBXNativeTarget "ExcelTabelUITests" */;
+			buildPhases = (
+				A3EFB48D1EFA63EF00A2FB33 /* Sources */,
+				A3EFB48E1EFA63EF00A2FB33 /* Frameworks */,
+				A3EFB48F1EFA63EF00A2FB33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3EFB4931EFA63EF00A2FB33 /* PBXTargetDependency */,
+			);
+			name = ExcelTabelUITests;
+			productName = ExcelTabelUITests;
+			productReference = A3EFB4911EFA63EF00A2FB33 /* ExcelTabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3EFB4651EFA63EF00A2FB33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = df;
+				TargetAttributes = {
+					A3EFB46C1EFA63EF00A2FB33 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					A3EFB4851EFA63EF00A2FB33 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3EFB46C1EFA63EF00A2FB33;
+					};
+					A3EFB4901EFA63EF00A2FB33 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3EFB46C1EFA63EF00A2FB33;
+					};
+				};
+			};
+			buildConfigurationList = A3EFB4681EFA63EF00A2FB33 /* Build configuration list for PBXProject "ExcelTabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3EFB4641EFA63EF00A2FB33;
+			productRefGroup = A3EFB46E1EFA63EF00A2FB33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3EFB46C1EFA63EF00A2FB33 /* ExcelTabel */,
+				A3EFB4851EFA63EF00A2FB33 /* ExcelTabelTests */,
+				A3EFB4901EFA63EF00A2FB33 /* ExcelTabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3EFB46B1EFA63EF00A2FB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EFB4801EFA63EF00A2FB33 /* LaunchScreen.storyboard in Resources */,
+				A3EFB47D1EFA63EF00A2FB33 /* Assets.xcassets in Resources */,
+				A3EFB47B1EFA63EF00A2FB33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EFB4841EFA63EF00A2FB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EFB48F1EFA63EF00A2FB33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3EFB4691EFA63EF00A2FB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EFB4B11EFA644C00A2FB33 /* ExcelViewController.m in Sources */,
+				A3EFB4751EFA63EF00A2FB33 /* AppDelegate.m in Sources */,
+				A3EFB4AF1EFA644C00A2FB33 /* ExcelCell.m in Sources */,
+				A3EFB4B01EFA644C00A2FB33 /* ExcelLeftView.m in Sources */,
+				A3EFB4AE1EFA644C00A2FB33 /* ClassifyView.m in Sources */,
+				A3EFB4721EFA63EF00A2FB33 /* main.m in Sources */,
+				A3EFB4B21EFA644C00A2FB33 /* SubtypeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EFB4821EFA63EF00A2FB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EFB48B1EFA63EF00A2FB33 /* ExcelTabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EFB48D1EFA63EF00A2FB33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EFB4961EFA63EF00A2FB33 /* ExcelTabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3EFB4881EFA63EF00A2FB33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3EFB46C1EFA63EF00A2FB33 /* ExcelTabel */;
+			targetProxy = A3EFB4871EFA63EF00A2FB33 /* PBXContainerItemProxy */;
+		};
+		A3EFB4931EFA63EF00A2FB33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3EFB46C1EFA63EF00A2FB33 /* ExcelTabel */;
+			targetProxy = A3EFB4921EFA63EF00A2FB33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3EFB4791EFA63EF00A2FB33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EFB47A1EFA63EF00A2FB33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3EFB47E1EFA63EF00A2FB33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EFB47F1EFA63EF00A2FB33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3EFB4981EFA63EF00A2FB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3EFB4991EFA63EF00A2FB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3EFB49B1EFA63EF00A2FB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExcelTabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.ExcelTabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3EFB49C1EFA63EF00A2FB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExcelTabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.ExcelTabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3EFB49E1EFA63EF00A2FB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExcelTabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.ExcelTabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcelTabel.app/ExcelTabel";
+			};
+			name = Debug;
+		};
+		A3EFB49F1EFA63EF00A2FB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExcelTabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.ExcelTabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcelTabel.app/ExcelTabel";
+			};
+			name = Release;
+		};
+		A3EFB4A11EFA63EF00A2FB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExcelTabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.ExcelTabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExcelTabel;
+			};
+			name = Debug;
+		};
+		A3EFB4A21EFA63EF00A2FB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExcelTabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.ExcelTabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExcelTabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3EFB4681EFA63EF00A2FB33 /* Build configuration list for PBXProject "ExcelTabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EFB4981EFA63EF00A2FB33 /* Debug */,
+				A3EFB4991EFA63EF00A2FB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EFB49A1EFA63EF00A2FB33 /* Build configuration list for PBXNativeTarget "ExcelTabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EFB49B1EFA63EF00A2FB33 /* Debug */,
+				A3EFB49C1EFA63EF00A2FB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3EFB49D1EFA63EF00A2FB33 /* Build configuration list for PBXNativeTarget "ExcelTabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EFB49E1EFA63EF00A2FB33 /* Debug */,
+				A3EFB49F1EFA63EF00A2FB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3EFB4A01EFA63EF00A2FB33 /* Build configuration list for PBXNativeTarget "ExcelTabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EFB4A11EFA63EF00A2FB33 /* Debug */,
+				A3EFB4A21EFA63EF00A2FB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3EFB4651EFA63EF00A2FB33 /* Project object */;
+}
